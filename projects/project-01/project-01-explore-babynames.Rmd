@@ -6,7 +6,7 @@ output: github_document
 ```{r setup, message = FALSE, include = FALSE}
 knitr::opts_chunk$set(
   echo = TRUE,
-  error = TRUE,
+  eval = TRUE,
   comment = "#>",
   fig.path = "img/",
   fig.retina = 2,

@@ -149,7 +149,7 @@ tbl_names_popular |>
   )
 ```
 
-<img src="project-01/question-1-visualize-1.png" width="100%" style="display: block; margin: auto;" />
+<img src="img/question-1-visualize-1.png" width="100%" style="display: block; margin: auto;" />
 
 ### Question 2: \[Trendy Names\] What are trendy names?
 
@@ -253,13 +253,13 @@ plot_trends_in_name <- function(my_name) {
 plot_trends_in_name("Steve")
 ```
 
-<img src="project-01/question-2-visualize-1.png" width="100%" style="display: block; margin: auto;" />
+<img src="img/question-2-visualize-1.png" width="100%" style="display: block; margin: auto;" />
 
 ``` r
 plot_trends_in_name("Barbara")
 ```
 
-<img src="project-01/question-2-visualize-2.png" width="100%" style="display: block; margin: auto;" />
+<img src="img/question-2-visualize-2.png" width="100%" style="display: block; margin: auto;" />
 
 ### Question 3: \[Exploring Letter Popularity\] What makes certain letters more popular in names?
 
@@ -376,7 +376,7 @@ tbl_names_by_letter |>
   )
 ```
 
-<img src="project-01/question-3-visualize-1-1.png" width="100%" style="display: block; margin: auto;" />
+<img src="img/question-3-visualize-1-1.png" width="100%" style="display: block; margin: auto;" />
 
 Write a function that plot trends in the percentage of births for all
 names starting with a specific first letter.
@@ -406,7 +406,7 @@ plot_trends_in_letter <- function(my_letter) {
 plot_trends_in_letter("S")
 ```
 
-<img src="project-01/question-3-visualize-2-1.png" width="100%" style="display: block; margin: auto;" />
+<img src="img/question-3-visualize-2-1.png" width="100%" style="display: block; margin: auto;" />
 
 ------------------------------------------------------------------------
 
@@ -491,7 +491,7 @@ tbl_names_by_first_and_last_letter |>
   )
 ```
 
-<img src="project-01/question-4-visualize-1.png" width="100%" style="display: block; margin: auto;" />
+<img src="img/question-4-visualize-1.png" width="100%" style="display: block; margin: auto;" />
 
 ### Question 5: \[Vowels vs Consonants\] Are there naming trends in usage of vowels and consonants?
 
@@ -603,7 +603,7 @@ tbl_names_vowel_consonant |>
   )
 ```
 
-<img src="project-01/question-5-visualize-1.png" width="100%" style="display: block; margin: auto;" />
+<img src="img/question-5-visualize-1.png" width="100%" style="display: block; margin: auto;" />
 
 ------------------------------------------------------------------------
 
